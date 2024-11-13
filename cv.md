@@ -1,6 +1,6 @@
 ### Sebastian Kościółek
 
-<img src="/assets/photo.jpg" alt="userPhoto" width="150" height="200">
+<img src="/assets/photo.jpg" alt="userPhoto" width="170" height="200">
 
 ## Contact
 
