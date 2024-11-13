@@ -14,20 +14,42 @@ I am a third-year engineering student majoring in Computer Science at the School
 
 ## Skills
 
+### Frontend: 
+
 - **HTML5** 
 - **CSS3** - Flex, Grid, Bootstrap, Tailwind CSS, Preprocessor SASS/SCSS
 - **JavaScript** - Fundamentals, ES6+, JSON, OOP, Async programing, Functional programing
 - **React**
 - **TypeScript**
+
+### UI/UX: 
+
 - **Figma** - Knowgle tool, Profesjonal UI/UX design
+
+### Database: 
+
+- **MS SQL**
+- **PostgreSQL**
+- **MongoDB**
+
+### Backend: 
+
 - **Java**
+- **PHP** - I start lern this language in my Collage
 - **C/C++** - Using for my Collage
+
+### Tools: 
+
+- **VS/VS Code**
 - **Git** 
 - **Npm**
+- **Windows/Linux**
+- **Docker** 
+- **Cloud**
 
 ## Code examples
 
-interface JobCardProps {
+`interface JobCardProps {
   title: string;
   type: string;
   contract: string;
@@ -47,7 +69,7 @@ const JobCard: React.FC<JobCardProps> = ({
   onApplyClick,
 }) => {
   const date1 = dayjs(Date.now());
-  const diffInDays = date1.diff(postedOn, 'day');
+  const diffInDays = date1.diff(postedOn, 'day');`
 
 ## Experience
 
