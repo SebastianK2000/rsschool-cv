@@ -1,5 +1,7 @@
 ### Sebastian Kościółek
 
+[![userPhoto](/assets//photo.jpg)]
+
 ## Contact
 
 - **Phone**: +48 ### ### ###
@@ -7,6 +9,7 @@
 - **Linedln**: https://www.linkedin.com/in/sebastiankosciolek/
 - **GitHub**: https://github.com/SebastianK2000
 - **Address**: Cracow, Poland
+- **Discord nick name**: Sebastian K (@SebastianK2000)
 
 ## Summary
 
