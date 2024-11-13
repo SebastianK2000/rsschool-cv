@@ -49,7 +49,8 @@ I am a third-year engineering student majoring in Computer Science at the School
 
 ## Code examples
 
-```interface JobCardProps {
+```
+interface JobCardProps {
   title: string;
   type: string;
   contract: string;
@@ -67,7 +68,9 @@ const JobCard: React.FC<JobCardProps> = ({
   postedOn,
   skills,
   onApplyClick,
-})```
+})
+
+```
 
 ## Experience
 
