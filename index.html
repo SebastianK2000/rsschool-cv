@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="rsschool-cv">
+    <title>rsschool-cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sebastian Kościółek</h1>
+            <p>Frontend Developer | rsschool-cv</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Summary</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <li><a href="#projects">Experience</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Languages">Languages</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email - <a href="mailto:sebastian.kosciolek@example.com"><strong>sebastian.kosciolek@example.com</strong></a></p>
+            <p>Phone - <strong>+48 ### ### ###</strong></p>
+            <p>Linedln - <a href="https://www.linkedin.com/in/sebastiankosciolek/" target="_blank"><strong>https://www.linkedin.com/in/sebastiankosciolek/</strong></a></p>
+            <p>GitHub - <a href="https://github.com/sebastiank2000" target="_blank"><strong>sebastiank2000</strong></a></p>
+            <p>Address - <strong>Cracow, Poland</strong></p>
+            <p>Discord nick  - <strong>Sebastian K (@SebastianK2000)</strong></p>
+        </section>
+
+        <section id="about">
+            <h2>Summary</h2>
+            <p>I am a third-year engineering student majoring in Computer Science at the School of Business, National Louis University. I am currently available for full-time work as I am studying part-time. I am dedicated to expanding my knowledge and skills as a Software Developer.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React. TypeScript</li>
+                <li>Figma</li>
+                <li>Java / C++</li>
+                <li>MS SQL, PostgreSQL, MongoDB</li>
+                <li>Windows / Linux</li>
+                <li>Version Control (Git, GitHub)</li>
+                <li>Responsive Web Design</li>
+            </ul>
+        </section>
+
+        <section id="code-example">
+            <h2>Code Example</h2>
+            <pre>
+        <code>
+        interface JobCardProps {
+            title: string;
+            type: string;
+            contract: string;
+            location: string;
+            postedOn: string;
+            skills: string[];
+            onApplyClick: () => void;
+        }
+        
+        const JobCard: React.FC&lt;JobCardProps&gt; = ({
+            title,
+            type,
+            contract,
+            location,
+            postedOn,
+            skills,
+            onApplyClick,
+        }) => {
+            return (
+                &lt;div&gt;
+                    &lt;h3&gt;{title}&lt;/h3&gt;
+                    &lt;p&gt;Type: {type}&lt;/p&gt;
+                &lt;/div&gt;
+            );
+        };
+        </code>
+            </pre>
+        </section>
+
+        <section id="projects">
+            <h2>Experience</h2>
+            <ul>
+                <h4>Compercial</h4>
+                <li><strong>QA Engineer - Fingoweb</strong> - 04.2024 - 09.2024</li>
+                <p>In this position, I performed automation testing using Cypress, worked in a commercial project env, created documentation, and communicated with clients from the USA. We used Asana, Scrum, Slack, Cypress etc.</p>
+            </ul>
+            <ul>
+                <h4>Private projects</h4>
+                <li><a href="https://github.com/SebastianK2000/WeatherApp_React" target="_blank"><strong>React - Weather app</strong></a></li>
+                <li><a href="https://github.com/SebastianK2000/Manuskrypt" target="_blank"><strong>React - Web Library page</strong></a></li>
+                <li><a href="https://github.com/SebastianK2000/Manuskrypt" target="_blank"><strong>Figma UI/UX - design mobile app</strong></a></li>
+                <li><a href="https://github.com/SebastianK2000/spoonInHoney" target="_blank"><strong>React & Tailwind CSS - Reastaurant app</strong></a></li>
+            </ul>
+        </section>
+
+        <section id="Education">
+            <h2>Education</h2>
+            <ul>
+                <li>Thirt-year Engineer of Computer Science at School of Business - National Louis University</li>
+            </ul>
+        </section>
+
+        <section id="Languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - B2</li>
+                <li>Polish - Native</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Sebastian Kościółek. All rights reserved.</p>
+    </footer>
+</body>
+</html>
